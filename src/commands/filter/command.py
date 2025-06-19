@@ -31,7 +31,6 @@ def build_logic(op_stack, node_stack):
 def parse_expression(tokens: list[str]) -> BaseStrategy:
     op_stack: list[str] = []
     node_stack: list[BaseStrategy] = []
-    print(tokens)
     for token in tokens:
         if token == "(":
             op_stack.append(token)
