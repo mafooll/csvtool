@@ -1,0 +1,12 @@
+[project]
+name = "csvtool"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pytest>=8.4.0",
+    "pytest-cov>=6.2.1",
+    "tabulate>=0.9.0",
+    "types-tabulate>=0.9.0.20241207",
+]

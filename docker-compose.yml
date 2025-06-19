@@ -1,0 +1,9 @@
+services:
+  csv-cli:
+    container_name: csvtool-cli
+    build: .
+    working_dir: /csvtool
+    volumes:
+      - ./src:/csvtool/src:ro
+      - ./csv_files:/csvtool/csv_files:ro
+    entrypoint: ["python", "-m", "src"]
