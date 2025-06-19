@@ -3,7 +3,7 @@
 ## installing
 
 ```bash
-https://github.com/mafooll/csvtool.git &&
+git clone https://github.com/mafooll/csvtool.git &&
 cd csvtool &&
 docker-compose build
 ```
